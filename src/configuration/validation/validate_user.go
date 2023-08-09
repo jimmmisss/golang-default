@@ -3,12 +3,12 @@ package validation
 import (
 	"encoding/json"
 	"errors"
-	"github.com/jimmmisss/golang-default/src/configuration/rest_err"
 
 	"github.com/gin-gonic/gin/binding"
 	"github.com/go-playground/locales/en"
 	ut "github.com/go-playground/universal-translator"
 	"github.com/go-playground/validator/v10"
+	"github.com/jimmmisss/golang-default/src/configuration/rest_err"
 
 	en_translation "github.com/go-playground/validator/v10/translations/en"
 )
